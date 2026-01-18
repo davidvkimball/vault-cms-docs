@@ -1,0 +1,245 @@
+{
+  "projectRoot": "../../",
+  "configFilePath": "../../astro.config.mjs",
+  "contentTypes": [
+    {
+      "id": "content-type-1768697407589-wymypnf2e",
+      "name": "Docs",
+      "folder": "docs",
+      "fileOrganization": "file",
+      "enabled": false,
+      "indexFileName": "index"
+    },
+    {
+      "id": "content-type-1768697426227-d6b7tj26w",
+      "name": "Guides",
+      "folder": "docs/guides",
+      "fileOrganization": "file",
+      "enabled": true,
+      "indexFileName": "index"
+    },
+    {
+      "id": "content-type-1768697430049-8m3szy5y2",
+      "name": "Reference",
+      "folder": "docs/reference",
+      "fileOrganization": "file",
+      "enabled": true,
+      "indexFileName": "index"
+    }
+  ],
+  "frontmatterProperties": {
+    "content-type-1768697426227-d6b7tj26w": {
+      "titleProperty": "title",
+      "descriptionProperty": "description",
+      "hasDraftStatus": false,
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n"
+    },
+    "content-type-1768697430049-8m3szy5y2": {
+      "titleProperty": "title",
+      "descriptionProperty": "description",
+      "hasDraftStatus": false,
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n"
+    }
+  },
+  "attachmentHandlingMode": "subfolder",
+  "preset": "vanilla",
+  "enableWYSIWYG": false,
+  "enabledPlugins": [
+    "astro-composer",
+    "bases-cms",
+    "editing-toolbar",
+    "home-base",
+    "image-manager",
+    "property-over-file-name",
+    "seo",
+    "ui-tweaker",
+    "alias-file-name-history",
+    "explorer-focus",
+    "iconic",
+    "settings-search",
+    "tag-wrangler",
+    "zenmode"
+  ],
+  "disabledPlugins": [],
+  "theme": "",
+  "basesCMSConfig": {
+    "views": []
+  },
+  "astroComposerConfig": {
+    "customContentTypes": [],
+    "defaultTemplate": "",
+    "configFilePath": "",
+    "terminalProjectRootPath": ""
+  },
+  "seoConfig": {
+    "titleProperty": "title",
+    "scanDirectories": "docs/guides,docs/reference",
+    "useFilenameAsTitle": false,
+    "useFilenameAsSlug": true,
+    "enableMDXSupport": false
+  },
+  "commanderConfig": {
+    "pageHeaderCommands": []
+  },
+  "propertyOverFileName": {
+    "propertyKey": "title"
+  },
+  "imageInserter": {
+    "valueFormat": "[[attachments/{image-url}]]",
+    "insertFormat": "[[attachments/{image-url}]]"
+  },
+  "imageManager": {
+    "enableRenameOnPaste": true,
+    "enableRenameOnDrop": true,
+    "imageNameTemplate": "{{fileName}}",
+    "attachmentLocation": "obsidian",
+    "customAttachmentPath": "./assets",
+    "defaultProvider": "unsplash",
+    "unsplashProxyServer": "",
+    "pexelsApiKey": "",
+    "pexelsApiKeySecretId": "",
+    "pixabayApiKey": "",
+    "pixabayApiKeySecretId": "",
+    "defaultOrientation": "any",
+    "defaultImageSize": "large",
+    "enablePropertyPaste": true,
+    "propertyLinkFormat": "obsidian",
+    "customPropertyLinkFormat": "{image-url}",
+    "defaultPropertyName": "banner",
+    "defaultIconPropertyName": "icon",
+    "autoConvertRemoteImages": false,
+    "convertOnNoteOpen": false,
+    "convertOnNoteSave": false,
+    "showRenameDialog": true,
+    "autoRename": false,
+    "dupNumberDelimiter": "-",
+    "dupNumberAtStart": false,
+    "disableRenameNotice": false,
+    "enableDescriptiveImages": true,
+    "insertSize": "",
+    "insertReferral": true,
+    "insertBackLink": false,
+    "appendReferral": false,
+    "banner": {
+      "properties": {
+        "imageProperty": "banner",
+        "iconProperty": "icon"
+      },
+      "desktop": {
+        "enabled": true,
+        "height": 240,
+        "viewOffset": 0,
+        "noteOffset": -32,
+        "borderRadius": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "padding": 8,
+        "fade": true,
+        "iconEnabled": false,
+        "iconSize": 96,
+        "iconRadius": 8,
+        "iconBackground": true,
+        "iconBorder": 2,
+        "iconFrame": true,
+        "iconAlignmentH": "flex-start",
+        "iconAlignmentV": "flex-end",
+        "iconOffsetX": 0,
+        "iconOffsetY": -24
+      },
+      "tablet": {
+        "enabled": true,
+        "height": 190,
+        "viewOffset": 0,
+        "noteOffset": -32,
+        "borderRadius": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "padding": 8,
+        "fade": true,
+        "iconEnabled": false,
+        "iconSize": 96,
+        "iconRadius": 8,
+        "iconBackground": true,
+        "iconBorder": 2,
+        "iconFrame": true,
+        "iconAlignmentH": "flex-start",
+        "iconAlignmentV": "flex-end",
+        "iconOffsetX": 0,
+        "iconOffsetY": -24
+      },
+      "phone": {
+        "enabled": true,
+        "height": 160,
+        "viewOffset": 0,
+        "noteOffset": -32,
+        "borderRadius": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "padding": 8,
+        "fade": true,
+        "iconEnabled": false,
+        "iconSize": 56,
+        "iconRadius": 8,
+        "iconBackground": true,
+        "iconBorder": 2,
+        "iconFrame": true,
+        "iconAlignmentH": "flex-start",
+        "iconAlignmentV": "flex-end",
+        "iconOffsetX": 0,
+        "iconOffsetY": -24
+      }
+    },
+    "supportedExtensions": [
+      "md",
+      "mdx"
+    ],
+    "debugMode": false
+  },
+  "homeBase": {
+    "homeBaseType": "File",
+    "homeBaseValue": "bases/Home.base",
+    "openOnStartup": true,
+    "openViewMode": "default",
+    "openMode": "replace-all",
+    "manualOpenMode": "retain",
+    "replaceNewTab": false,
+    "newTabMode": "only-when-empty",
+    "openWhenAllTabsClosed": true,
+    "useDifferentFileForNewTab": false,
+    "newTabType": "File",
+    "newTabValue": "",
+    "newTabSeparateMobile": false,
+    "mobileNewTabType": "File",
+    "mobileNewTabValue": "",
+    "showStickyHomeIcon": true,
+    "stickyIconName": "home",
+    "hideHomeTabHeader": true,
+    "replaceMobileNewTab": false,
+    "separateMobile": false,
+    "mobileHomeBaseType": "File",
+    "mobileHomeBaseValue": "",
+    "commandOnOpen": "",
+    "revertView": false,
+    "autoScroll": false,
+    "hideReleaseNotes": false,
+    "stickyIconReplaceTab": false
+  },
+  "explorerFocus": {},
+  "ignoreConfig": {
+    "gitIgnoreConfigured": true,
+    "viteIgnoreConfigured": true
+  },
+  "runWizardOnStartup": false,
+  "wizardCompleted": true,
+  "enableMdxSupport": true,
+  "defaultContentTypeId": "content-type-1768697426227-d6b7tj26w"
+}

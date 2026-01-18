@@ -1,0 +1,71 @@
+defaultView: Guides
+filters:
+  or:
+    - file.ext == "md"
+    - file.ext == "mdx"
+formulas:
+  Slug: |-
+    if(file.folder == "posts", "/posts/" + file.name.replace(".md", ""), 
+      if(file.folder == "pages", "/" + file.name.replace(".md", ""), 
+        if(file.folder == "special", if(file.name.replace(".md", "") == "home", "/", "/" + file.name.replace(".md", "")), 
+          if(file.folder == "projects", "/projects/" + file.name.replace(".md", ""), 
+            if(file.folder == "docs", "/docs/" + file.name.replace(".md", ""), 
+              "/" + file.folder)))))
+  Content Folder: |-
+    if(file.name == "index",
+      if(file.folder != "",
+        if(file.folder.replace("/" + file.folder.replace(/.*\//, ""), "") != "",
+          file.folder.replace("/" + file.folder.replace(/.*\//, ""), ""),
+          file.folder
+        ),
+        "root"
+      ),
+      if(file.folder != "",
+        file.folder,
+        "root"
+      )
+    )
+properties:
+  file.fullname:
+    displayName: Full File Name
+  file.name:
+    displayName: File Name
+  formula.Slug:
+    displayName: Path
+  note.date:
+    displayName: Date
+  note.description:
+    displayName: Description
+  note.draft:
+    displayName: Draft
+  note.pubDate:
+    displayName: Date
+  note.title:
+    displayName: Title
+  note.undefined:
+    displayName: Undefined
+views:
+  - type: bases-cms
+    name: Docs
+    filters:
+      and:
+        - file.folder.startsWith("docs/")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    sort:
+      - property: file.name
+        direction: ASC
+    imageFormat: cover
+    titleProperty: note.title
+    dateProperty: file.ctime
+    descriptionProperty: note.description
+    showTags: false
+    showDate: false
+    showDraftStatus: false
+    customizeNewButton: true
+    newNoteLocation: docs/guides
+    fallbackToEmbeds: if-empty
+    propertyDisplay1: file.fullname
+    showTextPreview: true
+    propertyLabels: above

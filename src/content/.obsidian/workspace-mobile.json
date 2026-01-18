@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "58b7c107e1a49e61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b1bd1ed4f95391",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/vault-cms-guide.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "vault-cms-guide"
+            }
+          },
+          {
+            "id": "bc67a6cedfb7a4fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/obsidian-embeds-demo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "obsidian-embeds-demo"
+            }
+          },
+          {
+            "id": "16ac35075aaba78e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "docs/attachments/obsidian-cover.png"
+              },
+              "icon": "lucide-image",
+              "title": "obsidian-cover"
+            }
+          },
+          {
+            "id": "f95525287f7adfb2",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "bases/Home.base",
+                "viewName": "Posts"
+              },
+              "icon": "lucide-home",
+              "title": "Home"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6869f6be2569286d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "09ec3fb08d373798",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "02ecc45f1902c267",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "e4bd6d8d668adaa9",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "3e1ffe7c0ba99c75",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "3798eec615a24abe",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "320e32ac65f2f247",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "bases/Home.base",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "31b12c560471d22e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "_bases/posts.base",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "lucide-ghost",
+          "title": "outgoing-link"
+        }
+      },
+      {
+        "id": "c250aa8683617ae2",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "_bases/posts.base",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "astro-modular-settings:Open Astro Modular wizard": true,
+      "zenmode:Toggle Zen mode": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "iconic:Open rulebook": true,
+      "bases:Create new base": true,
+      "seo:Open SEO audit panel": false,
+      "homepage:Open homepage": true
+    }
+  },
+  "active": "f95525287f7adfb2",
+  "lastOpenFiles": [
+    "posts/vault-cms-guide.md",
+    "docs/attachments/obsidian-cover.png",
+    "bases/Home.base",
+    "posts/obsidian-embeds-demo.md",
+    "special/docs.md",
+    "docs/configuration.md",
+    "posts/obsidian-vault-guide.md",
+    "bases/home.base",
+    "_bases/home.base",
+    "_astro-suite-vault-minimal-guide.md",
+    "_sleep.md",
+    "_bases/posts.base",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "imitation.md",
+    "hyperfixation.md",
+    "_test-post.md",
+    "_imitation.md",
+    "focus.md",
+    "_limitations.md",
+    "friction.md",
+    "test.md",
+    "_sleep/index.md",
+    "_sleep",
+    "_when.md",
+    "when.md",
+    "why.md"
+  ]
+}

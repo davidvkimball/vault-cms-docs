@@ -1,0 +1,53 @@
+{
+  "defaultTemplate": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n",
+  "autoInsertProperties": true,
+  "dateFormat": "YYYY-MM-DD",
+  "enableCopyHeadingLink": true,
+  "copyHeadingLinkFormat": "astro",
+  "addTrailingSlashToLinks": true,
+  "enableOpenTerminalCommand": true,
+  "terminalProjectRootPath": "../../",
+  "terminalApplicationName": "",
+  "enableTerminalDebugLogging": false,
+  "enableTerminalRibbonIcon": true,
+  "enableOpenConfigFileCommand": true,
+  "configFilePath": "../../astro.config.mjs",
+  "enableConfigRibbonIcon": true,
+  "contentTypes": [
+    {
+      "id": "content-type-1768697426227-d6b7tj26w",
+      "name": "Guides",
+      "folder": "docs/guides",
+      "linkBasePath": "/guides/",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n",
+      "enabled": true,
+      "creationMode": "file",
+      "indexFileName": "index",
+      "ignoreSubfolders": false,
+      "enableUnderscorePrefix": false
+    },
+    {
+      "id": "content-type-1768697430049-8m3szy5y2",
+      "name": "Reference",
+      "folder": "docs/reference",
+      "linkBasePath": "/reference/",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n",
+      "enabled": true,
+      "creationMode": "file",
+      "indexFileName": "index",
+      "ignoreSubfolders": false,
+      "enableUnderscorePrefix": false
+    }
+  ],
+  "migrationCompleted": true,
+  "helpButtonReplacement": {
+    "enabled": true,
+    "commandId": "astro-composer:edit-astro-config",
+    "iconId": "wrench"
+  },
+  "showMdxFilesInExplorer": true,
+  "linkBasePath": "/posts/",
+  "enableAutoRename": true,
+  "enableAutoInsertFrontmatter": true,
+  "draftStyle": "filename"
+}
