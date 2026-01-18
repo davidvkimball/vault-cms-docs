@@ -17,6 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 
    LOGO CSS FIX (No Flashing)
+   We replace the text title with a background image logo.
+   This is 100% stable because it bypasses Astro's image processing.
 */
 
 .header .title-wrapper a {
@@ -26,10 +28,12 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
+/* Hide the default text title */
 .header .title-wrapper a span {
     display: none !important;
 }
 
+/* Inject the logo as a pseudo-element */
 .header .title-wrapper a::before {
     content: "";
     display: inline-block;
@@ -40,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: left center;
 }
 
+/* Theme-specific logo swapping using absolute paths to public folder */
 :root[data-theme='light'] .header .title-wrapper a::before {
     background-image: url('/assets/vault-cms-logo-on-light.png');
 }
@@ -49,17 +54,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 
-   HOME PAGE ONLY STYLES
-   Production-Safe Centering: Targeting functional classes 
-   instead of generated hashes.
+   HOME PAGE HERO FIX
 */
 
 [data-template="splash"] .hero {
-    grid-template-columns: 1fr !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     text-align: center !important;
+    grid-template-columns: 1fr !important;
+}
+
+[data-template="splash"] .hero > div {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
     width: 100% !important;
     max-width: none !important;
 }
@@ -67,10 +76,6 @@ h1, h2, h3, h4, h5, h6 {
 [data-template="splash"] .hero .sl-flex {
     justify-content: center !important;
     width: 100% !important;
-}
-
-[data-template="splash"] .hero .copy {
-    align-items: center !important;
 }
 
 [data-template="splash"] .main-frame .sl-container {
