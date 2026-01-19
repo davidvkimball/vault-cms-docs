@@ -20,6 +20,7 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						{ label: 'Introduction', slug: 'guides/introduction' },
+						{ label: 'Installation', slug: 'guides/installation' },
 						{ label: 'Mobile Guide', slug: 'guides/mobile-guide' },
 						{ label: 'Theme & UI', slug: 'guides/theme-and-ui' },
 						{ label: 'Vault Hotkeys', slug: 'guides/vault-hotkeys' },
