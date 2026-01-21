@@ -28,9 +28,9 @@
     },
     {
       "id": "content-type-1768697430049-8m3szy5y2",
-      "name": "Reference",
-      "folder": "docs/reference",
-      "linkBasePath": "/reference/",
+      "name": "Plugins",
+      "folder": "docs/plugins",
+      "linkBasePath": "/plugins/",
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n",
       "enabled": true,
       "creationMode": "file",

@@ -40,6 +40,7 @@ export default defineConfig({
 						{ label: 'Git', slug: 'plugins/git' },
 						{ label: 'Home Base', slug: 'plugins/home-base' },
 						{ label: 'Image Manager', slug: 'plugins/image-manager' },
+						{ label: 'Omnisearch', slug: 'plugins/omnisearch' },
 						{ label: 'Property Over File Name', slug: 'plugins/property-over-file-name' },
 						{ label: 'SEO', slug: 'plugins/seo' },
 						{ label: 'Settings Search', slug: 'plugins/settings-search' },

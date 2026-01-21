@@ -44,6 +44,7 @@ All plugins, key bindings, and the theme can be customized to your liking, but t
 - [Home Base](/plugins/home-base/)
 - [Iconic](/plugins/vault-cms/)
 - [Image Manager](/plugins/image-manager/)
+- [Omnisearch](docs/plugins/omnisearch.md)
 - [Oxygen Theme Settings](/guides/theme-and-ui/)
 - [Property Over File Name](/plugins/property-over-file-name/)
 - [SEO](/plugins/seo/)
