@@ -15,7 +15,7 @@
               "type": "bases",
               "state": {
                 "file": "_bases/Home.base",
-                "viewName": "Docs"
+                "viewName": "Guides"
               },
               "pinned": true,
               "icon": "lucide-home",
@@ -143,10 +143,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "docs/guides/Untitled.md",
+    "_bases/Home.base",
     "docs/plugins/home-base.md",
     "docs/guides/introduction.md",
     "docs/plugins/omnisearch.md",
-    "_bases/Home.base",
     "docs/plugins/property-over-file-name.md",
     "docs/plugins/image-manager.md",
     "docs/plugins/vault-cms.md",
@@ -169,7 +170,6 @@
     "docs/guides/vault-hotkeys.md",
     "docs/guides/mobile-guide.md",
     "docs/guides/mobile.md",
-    "docs/guides/theme.md",
     "bases/Home.base",
     "bases",
     "oranges/cheese/cheese.jpg",
