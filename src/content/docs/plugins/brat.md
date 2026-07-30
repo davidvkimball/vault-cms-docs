@@ -5,7 +5,13 @@ description: Load beta plugins from GitHub repositories.
 
 [BRAT](https://github.com/TfTHacker/obsidian42-brat) (Beta Reviewer's Auto-update Tool) installs and manages beta versions of Obsidian plugins and themes directly from GitHub repositories.
 
-Vault CMS uses BRAT for the two plugins that are not in the official Obsidian community directory: the [Vault CMS plugin](/plugins/vault-cms/) itself (still in beta), and the [Data Files Editor](/plugins/data-files-editor/) fork. Every other companion plugin has migrated to the official directory and installs through the standard Community Plugins browser.
+Vault CMS uses BRAT for a small number of plugins that cannot come from the official Obsidian community directory:
+
+- The [Vault CMS plugin](/plugins/vault-cms/) itself, which is still in beta.
+- The theme settings plugins, Astro Modular Settings and Axis Settings, which ship with their respective themes rather than standing alone.
+- The [Data Files Editor](/plugins/data-files-editor/) fork, which is ahead of the version currently in the community directory.
+
+Every other companion plugin is in the official directory and installs and updates through the standard Community Plugins browser.
 
 ### Features
 

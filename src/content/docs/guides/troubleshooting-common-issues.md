@@ -22,6 +22,23 @@ Run `git remote -v` in the project. You need a remote and working auth (SSH or H
 
 In **Settings → Astro Composer**, enable **Auto-insert Properties** (or equivalent). Ensure a content type matches the folder you are in. Re-run **[Vault CMS: Open Wizard](/plugins/vault-cms/)** if types are missing.
 
+If Astro Composer has no content types at all, and its settings show no creation type, the wizard could not reach it when it ran. That usually means Astro Composer was not enabled or had not finished loading. Enable it under **Settings → Community plugins**, fully restart Obsidian so every plugin loads, then run the wizard again.
+
+### I used the GitHub template button and nothing was configured
+
+Symptoms: the wizard appears to finish, but new notes have no frontmatter, Astro Composer has no content types, and plugins seem missing.
+
+The Vault CMS vault lives inside a dotfolder (`src/content/.obsidian/`). GitHub's **Use this template** button does not reliably copy dotfolders, so the project can arrive with an empty or missing vault. Because dotfolders are hidden in most file explorers and in GitHub's web interface, the repository looks complete when it is not.
+
+**Check first.** Confirm that `src/content/.obsidian/` exists and contains a `plugins` folder. On macOS press `Cmd + Shift + .` in Finder to show hidden files; on Windows enable **Hidden items** in File Explorer's View tab.
+
+**If it is missing or empty**, use one of these instead:
+
+- Run `npx create-vaultcms` in your project. The installer copies dotfolders correctly by design.
+- Or `git clone` the theme repository rather than using the template button, then remove `.git` and start your own history.
+
+Both approaches bring the vault across intact. See [Installation](/guides/installation/) for the full steps.
+
 ### Wiki links appear in Astro output
 
 Use **Astro Composer: Convert Wikilinks to Astro** from the command palette. Optionally enable background wikilink processing in Astro Composer settings.
