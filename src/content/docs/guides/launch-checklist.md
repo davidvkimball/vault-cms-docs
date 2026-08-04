@@ -40,6 +40,7 @@ Presets ship with opinionated defaults. Make it yours right away:
 - [ ] Change the Obsidian theme (Settings > Appearance) if the preset's theme isn't your style
 - [ ] Use UI Tweaker's "Reset all to defaults" to restore the standard Obsidian interface if the preset hides elements you want visible
 - [ ] Enable the Editing Toolbar plugin for a familiar formatting bar (bold, italic, headings, lists)
+- [ ] Set your site's colors and appearance in [Theme and UI](/guides/theme-and-ui/). This covers the published site, which is configured separately from the Obsidian theme above
 
 ## Configure Content
 
@@ -61,6 +62,17 @@ Presets ship with opinionated defaults. Make it yours right away:
 - [ ] Set output directory: `dist`
 - [ ] Trigger first deploy
 - [ ] Visit your live site URL and confirm it loads
+
+## Contact Form (Optional)
+
+Themes that ship a contact page use [Netlify Forms](https://docs.netlify.com/manage/forms/setup/), which works natively with no backend and no configuration.
+
+- [ ] Deploy to Netlify. The form is detected automatically at build time
+- [ ] Submit the form once on your live site to register it
+- [ ] Confirm the submission appears under Forms in your Netlify dashboard
+- [ ] Set up notifications in Netlify if you want submissions emailed to you
+
+The form posts to the `/thank-you` page that ships with the theme, so no extra setup is needed.
 
 ## Write Your First Post
 
