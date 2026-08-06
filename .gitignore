@@ -23,3 +23,6 @@ pnpm-debug.log*
 # Obsidian workspace files
 **/.obsidian/workspace.json
 **/.obsidian/workspace-mobile.json
+
+# Playwright MCP scratch snapshots
+.playwright-mcp/
