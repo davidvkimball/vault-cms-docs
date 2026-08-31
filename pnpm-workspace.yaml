@@ -15,3 +15,5 @@ minimumReleaseAgeExclude:
   - astro-expressive-code@0.43.1
   - expressive-code@0.43.1
   - rehype-expressive-code@0.43.1
+  - '@astrojs/internal-helpers@0.11.0'
+  - '@astrojs/sitemap@3.7.4'
